@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-image: url(https://apod.nasa.gov/apod/image/1909/IRISNebulaSurroundingsNGC7023_1100.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imageDiv {
+  background: rgba(107, 106, 106, 0.637);
+  width: 50%;
+  height: 85vh;
+  border-radius: 10px;
+  padding: 20px;
+  opacity: (0.7);
+}
+
+.image {
+  width: 90%
+}
+
+.imageText {
+  width: 90%;
+  margin: 10px auto;
+  height: 30%;
+  color: white;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.divAndButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divAndButton button{
+  height: 10vh;
+  border-radius: 10px;
+  font-size: 120%;
+  font-weight: 600;
+}
